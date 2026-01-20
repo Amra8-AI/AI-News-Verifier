@@ -444,7 +444,7 @@ if batch_file is not None:
                     subset=['Prediction']
                 )
 
-                st.dataframe(styled_df, use_container_width=True, height=500)
+                st.dataframe(styled_df, width='stretch', height=500)
 
                 # Download results
                 st.markdown("---")
@@ -722,4 +722,5 @@ section[data-testid="stSidebar"] {
 
 </style>
 """, unsafe_allow_html=True)
+
 
