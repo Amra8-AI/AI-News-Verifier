@@ -14,7 +14,7 @@ import numpy as np
 # --- PAGE CONFIG ---
 st.set_page_config(
     page_title="AI News Verifier",
-    page_icon="\U0001F575",  # Detective emoji via Unicode escape
+    page_icon="🕵️",  # Detective emoji via Unicode escape
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -160,3 +160,4 @@ if batch_file is not None:
             )
 else:
     st.info("👆 Upload your CSV file to get started")
+
